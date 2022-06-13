@@ -32,12 +32,12 @@ body
 }
 #output
 {
-background: white;
-border-radius: 10px;
-border-top: 10px solid #AA4465;
-padding: 10px;
-float: none;
-text-align: left;
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid #AA4465;
+	padding: 10px;
+	float: none;
+	text-align: left;
 }
 h1{
 	color: orange;
@@ -47,8 +47,8 @@ h3{
 	font-family: 'Lora', serif;
 	color: teal;
 }
-label{
-	font-family: 'Yelslowtail', cursive;
+#username{
+	font-family: 'Yellowtail', cursive;
 	color: turquoise;
 }
 button{
@@ -57,7 +57,24 @@ button{
 input:hover{
 	background-color: yellow;
 }
-div:hover{
+.login_div2:hover{
 	border: 5px solid rgb(102, 6, 73);
 	width: 35%;
+}
+.login_div1:hover{
+	border: 5px solid rgb(102, 6, 73);
+	width: 35%;
+}
+#number_1,#number_2
+{
+	color: tomato;
+	font-weight: bold;
+}
+h4{
+	color: bisque;
+	font-family: 'Akaya Kanadaka', cursive;
+	width: 100px;
+}
+h4:hover{
+	text-decoration: underline;
 }
