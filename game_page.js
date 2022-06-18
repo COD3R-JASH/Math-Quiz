@@ -32,7 +32,7 @@ Answer_turn = "player2";
 function check() {
     get_answer = document.getElementById("input_check_box").value;
     answer = get_answer.toLowerCase();
-    console.log("Answer In Lower Case - "+answer);
+    console.log("Answer In Lower Case - "+ answer);
     if(answer == actual_answer){
         if(Answer_turn == "player1"){
             player1_score = player1_score + 1;
